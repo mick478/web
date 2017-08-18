@@ -1,0 +1,73 @@
+@CHARSET "BIG5";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	height:100vh;
+	margin:0;
+    padding:0;
+    outline:red solid thin;
+}
+bottom{
+	margin:0;
+    padding:0;
+    height:5%;
+    width:100%;
+    text-align:center;
+    font-family:monospace;
+    float: left;
+    font-size:3vh;
+    color:gray;
+}
+.top{
+	position:relative;
+	height:5%;
+	width:97%;
+	//outline:gray solid thin;
+	float: left;
+	text-align:left;
+	padding-left:3%;
+	font-size:4vh;
+	font-family:monospace;
+	color:white;
+	background-color:black;
+}
+.null1{
+	position:relative;
+	height:90%;
+	width:5%;
+	float: left;
+	background-color:black;
+}
+.left{
+	position:relative;
+	height:90%;
+	width:10%;
+	float: left;	
+}
+#canvas{
+	position:relative;
+	height:90%;
+	width:80%;
+	float: left;
+	background-color:gainsboro;
+}
+
+.null2{
+	position:relative;
+	height:90%;
+	width:5%;
+	float:left;
+	background-color:black;
+}
+.null3{
+	text-align:center;
+	font-size:4vh;
+	color:white;
+	position:relative;
+	height:5%;
+	width:100%;
+	float:left;
+	background-color:black;
+}
